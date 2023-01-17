@@ -7,7 +7,7 @@
 # appropriate location.
 
 install:
-	# Nothing installed
+	@(cp credentials.ini /Users/ronan/project-0/hello)
 
 run:
 	@(cd hello; python3 hello.py)
